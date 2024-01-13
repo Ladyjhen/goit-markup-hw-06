@@ -734,7 +734,7 @@ footer {
 
 .team-footer { 
      margin-top: 10px; 
-    gap: 16px;
+     gap: 16px;
        
     }
 
@@ -925,7 +925,7 @@ fill: var(--iris);
             margin-bottom: 16px;
             font-size: 16px;
             text-decoration: none;
-            color: var(--cloud);
+            color: var(--white);
             font-size: 18px;
             font-weight: 500;
             line-height: 1.5;
