@@ -184,7 +184,7 @@ img {
 .hero{
     background-color: var(--navyblue);
     background: linear-gradient(to right,
-        var(--grey, rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70))), url(../images/people-office.jpg);
+        var(--grey, rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70))), url(../images/bg1.jpg);
     background-size: cover;
     padding: 188px 0;
 }
