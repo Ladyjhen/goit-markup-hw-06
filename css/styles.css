@@ -288,7 +288,7 @@
   .hero { 
   padding: 200px 0;
   text-align: center;
-  background-image: url(../images/dark-bg.png), url(../images/bgphoto.jpg),
+  background-image: url(../images/Dark-bg.png), url(../images/bgphoto.jpg),
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
      background-repeat: no-repeat,no-repeat;
      background-position: center,center;
