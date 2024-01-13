@@ -533,23 +533,27 @@
             </ul>
           </div>
         </div>
-
-        <div class="footer-container footer-form">
-          <form name="subscribe_form" autocomplete="on" method="" >
-              <label class="footer-form_label">
-                  Subscribe
-                  <input type="email" 
-                  name="email" 
-                  placeholder="E-mail" 
-                  class="footer-form-input" required />
-              </label>
-              
-          
-              <button type="submit" class="footer-form-button">Subscribe
-                  <svg class="footer-form-svgsubscribe">
-                      <use href="./images/icons.svg#submit"></use>
-                  </svg>
-              </button>
+        <div class="footer-container-add footer-form">
+          <p class="footer-socials-text-add">Subscribe</p>
+          <form name="subscribe_form" autocomplete="on" class="formal">
+            <label class="footer-form_label">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="footer-form-input"
+                required
+              />
+            </label>
+            <button
+              type="submit"
+              class="footer-form-button footer-socials-text-add"
+            >
+              Subscribe
+              <svg class="footer-form-svgsubscribe" width="24" height="24">
+                <use href="./images/icons.svg#submit"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -561,12 +565,9 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-
         <p class="form-header">Leave your contacts and we will call you back</p>
-
         <form name="signup_form" autocomplete="on" class="form-container list"  method="">
-     
-                    <label class="form-label">
+           <label class="form-label">
                         
                             <span class="form-label-text">Name </span>
                             <input type="text" class="form-input" name="full_name"   required />
